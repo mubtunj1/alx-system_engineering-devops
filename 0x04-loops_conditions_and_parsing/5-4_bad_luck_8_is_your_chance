@@ -5,16 +5,16 @@ Executable File  18 lines (16 sloc)  267 Bytes
 
 i=1
 
-while [ $i -le 10 ]
+while [ $i -le 20 ]
 do
     if [ $i -eq 4 ]
     then
-        echo "bad luck"
-    elif [ $i -eq 8 ]
+        echo "bad luck from China"
+    elif [ $i -eq 9 ]
     then
-        echo "good luck"
+        echo "bad luck from Japan"
     else
-        echo "Best School"
+        echo "bad luck from Italy"
     fi
     ((i++))
 done
