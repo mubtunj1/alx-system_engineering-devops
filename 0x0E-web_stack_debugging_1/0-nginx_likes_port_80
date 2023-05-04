@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# I change the port to 80
+# configure nginx to respond to port 80
+#debugging port 80
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx restart
