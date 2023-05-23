@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """ Accessing todo list"""
+import json
 import requests
 import sys
-import json
+
 if __name__ == "__main__":
 
     baseUrl = "https://jsonplaceholder.typicode.com/users"
